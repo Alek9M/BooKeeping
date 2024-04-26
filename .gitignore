@@ -1,0 +1,98 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# Visual Studio Code
+#
+.vscode/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+components/fab/fabMenu.tsx.orig
+components/main/money/budgetsFlatList.tsx
+components/main/money/BudgetTagRow.tsx
+components/main/navigation.tsx.orig
+package.json.orig
+package_BACKUP_78759.json
+package_BASE_78759.json
+package_LOCAL_78759.json
+package_REMOTE_78759.json
+yarn.lock.orig
+components/fab/customComponents/BudgetTagRowLoader.tsx
+components/fab/customComponents/react-native-dropdown-picker.tsx
+components/fab/customComponents/react-native-searchable-dropdown.tsx
+components/fab/customComponents/tagDropDownListItem.tsx
+components/main/customElements/projectsDropDownPicker.tsx
+components/main/prices.tsx
+components/main/serviceDetail.tsx
+data/serviceModel.ts
+data/servicePriceModel.ts
+model/service.tsx
+javacore.20211019.193143.50080.0002.txt
+javacore.20211019.193153.50165.0002.txt
+javacore.20211019.193203.50240.0002.txt
+javacore.20211019.193213.50302.0002.txt
+javacore.20211019.193225.50352.0002.txt
+jitdump.20211019.193143.50080.0004.dmp
+jitdump.20211019.193153.50165.0004.dmp
+jitdump.20211019.193203.50240.0004.dmp
+jitdump.20211019.193213.50302.0004.dmp
+jitdump.20211019.193225.50352.0004.dmp
+Snap.20211019.193143.50080.0003.trc
+Snap.20211019.193153.50165.0003.trc
+Snap.20211019.193203.50240.0003.trc
+Snap.20211019.193213.50302.0003.trc
+Snap.20211019.193225.50352.0003.trc
